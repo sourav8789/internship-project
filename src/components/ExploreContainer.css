@@ -1,24 +1,35 @@
-#container {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.c1{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 50px;
+    padding: 10px 20px 30px 40px;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.c2{
+    color: aquamarine;
+    font-size: 20px;
+    font-weight: 50px;
+     padding: 10px 20px 30px 40px;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 0;
+.c3{
+    color: blue;
+    font-size: 20px;
+    font-weight: 50px;
+    padding: 10px 20px 30px 40px;
+    height:100px;
+    width: 300px;
 }
-
-#container a {
-  text-decoration: none;
+.parent{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+}
+.child1{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+}
+.child2{
+    background-color: black;
+    height: 100px;
+    width: 100px;
 }
